@@ -12,7 +12,9 @@ import ListRestaurants from "./pages/listRestaurant/listRestaurant.jsx";
 
 
 const App = () => {
-  const url = "https://fooddel-backend.vercel.app";
+  const url = import.meta.env.DEV
+  ? "http://localhost:4000"
+  : "https://fooddel-backend.vercel.app";
   return (
     <div>
       <ToastContainer />

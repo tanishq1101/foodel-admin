@@ -12,7 +12,7 @@ import ListRestaurants from "./pages/listRestaurant/listRestaurant.jsx";
 
 
 const App = () => {
-  const url = "http://localhost:8080";
+  const url = "http://localhost:4000";
   return (
     <div>
       <ToastContainer />

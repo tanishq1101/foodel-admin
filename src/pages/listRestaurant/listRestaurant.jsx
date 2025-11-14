@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import "./ListRestaurant.css";
+import "./listRestaurant.css";
 
 const ListRestaurants = ({ url }) => {
   const [restaurants, setRestaurants] = useState([]);

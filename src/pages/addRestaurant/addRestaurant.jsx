@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import "./AddRestaurant.css";
+import "./addRestaurant.css";
 
 const AddRestaurant = ({ url }) => {
   const [form, setForm] = useState({
